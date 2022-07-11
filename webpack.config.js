@@ -30,6 +30,7 @@ module.exports = {
       },
     ],
   },
+  devtool: 'source-map', // maps the correct line of error in the source code
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
